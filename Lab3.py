@@ -1,6 +1,5 @@
-def add(num1, num2):
-    result = num1 + num2
+def add(num1, numm2):
+    result=num1+numm2
     return result
+print(add (3, 5))
 
-
-    add(4, 9)
