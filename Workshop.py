@@ -42,6 +42,16 @@ print("48 x 17 =", mul(48, 17))
 
 print("196523 x 87323 =", mul(196523, 87323))
 
+#TODO: a,e,i,o,u  step-by-step as it executes
+
+import random
+char_list = ['a','e','i','o','u']
+random.shuffle(char_list)
+
+print (".join(char_list)")
+
+
+
          
          
   
