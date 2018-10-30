@@ -8,4 +8,4 @@ tn.write("network 0.0.0.0 255.255.255.255 area 0\n")
 tn.write("end\n")
 tn.write("exit\n")
 
-print tn.read_all()
+print (tn.read_all())
