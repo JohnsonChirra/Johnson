@@ -1,3 +1,9 @@
+import getpass
+import sys
+import telnetlib
+
+HOST = "None"
+tn = telnetlib.Telnet(None)
 tn.write("conf t\n")
 tn.write("int loop 0\n")
 tn.write("ip address 10.10.10.1 255.255.255.255\n")
